@@ -1,0 +1,176 @@
+{
+  "organization": "Community Growth Association",
+  "exportDate": "2026-06-29",
+  "currency": "CAD",
+  "invoices": [
+    {
+      "invoiceId": "WA-INV-1001",
+      "invoiceDate": "2026-06-20",
+      "dueDate": "2026-07-20",
+      "status": "Paid",
+      "category": "Membership Renewal",
+
+      "member": {
+        "memberId": "M-1001",
+        "firstName": "John",
+        "lastName": "Smith",
+        "email": "john.smith@example.com",
+        "phone": "519-555-1234",
+        "organization": "ABC Consulting"
+      },
+
+      "billingAddress": {
+        "street": "125 King St",
+        "city": "Kitchener",
+        "province": "Ontario",
+        "postalCode": "N2G 1A1",
+        "country": "Canada"
+      },
+
+      "items": [
+        {
+          "description": "Professional Membership Renewal",
+          "quantity": 1,
+          "unitPrice": 150,
+          "tax": 19.5,
+          "total": 169.5
+        }
+      ],
+
+      "subtotal": 150,
+      "tax": 19.5,
+      "grandTotal": 169.5,
+      "paymentMethod": "Credit Card",
+      "notes": "Annual membership renewal"
+    },
+
+    {
+      "invoiceId": "WA-INV-1002",
+      "invoiceDate": "2026-06-21",
+      "dueDate": "2026-07-21",
+      "status": "Paid",
+      "category": "Event Registration",
+
+      "member": {
+        "memberId": "M-1002",
+        "firstName": "Emily",
+        "lastName": "Brown",
+        "email": "emily.brown@example.com",
+        "organization": "TechWorks Inc."
+      },
+
+      "items": [
+        {
+          "description": "Annual Business Conference 2026",
+          "quantity": 2,
+          "unitPrice": 95,
+          "tax": 24.7,
+          "total": 214.7
+        }
+      ],
+
+      "subtotal": 190,
+      "tax": 24.7,
+      "grandTotal": 214.7,
+      "paymentMethod": "Visa"
+    },
+
+    {
+      "invoiceId": "WA-INV-1003",
+      "invoiceDate": "2026-06-22",
+      "dueDate": "2026-07-22",
+      "status": "Paid",
+      "category": "Donation",
+
+      "member": {
+        "memberId": "M-1003",
+        "firstName": "Michael",
+        "lastName": "Wilson",
+        "email": "michael.w@example.com"
+      },
+
+      "items": [
+        {
+          "description": "Community Development Donation",
+          "quantity": 1,
+          "unitPrice": 500,
+          "tax": 0,
+          "total": 500
+        }
+      ],
+
+      "subtotal": 500,
+      "tax": 0,
+      "grandTotal": 500,
+      "paymentMethod": "Bank Transfer"
+    },
+
+    {
+      "invoiceId": "WA-INV-1004",
+      "invoiceDate": "2026-06-23",
+      "dueDate": "2026-07-23",
+      "status": "Pending",
+      "category": "Training Course",
+
+      "member": {
+        "memberId": "M-1004",
+        "firstName": "Sarah",
+        "lastName": "Johnson",
+        "email": "sarah.j@example.com",
+        "organization": "Future Skills Academy"
+      },
+
+      "items": [
+        {
+          "description": "Leadership Development Workshop",
+          "quantity": 1,
+          "unitPrice": 325,
+          "tax": 42.25,
+          "total": 367.25
+        }
+      ],
+
+      "subtotal": 325,
+      "tax": 42.25,
+      "grandTotal": 367.25,
+      "paymentMethod": "Invoice"
+    },
+
+    {
+      "invoiceId": "WA-INV-1005",
+      "invoiceDate": "2026-06-24",
+      "dueDate": "2026-07-24",
+      "status": "Paid",
+      "category": "Merchandise Purchase",
+
+      "member": {
+        "memberId": "M-1005",
+        "firstName": "David",
+        "lastName": "Taylor",
+        "email": "david.t@example.com"
+      },
+
+      "items": [
+        {
+          "description": "Association Polo Shirt",
+          "quantity": 2,
+          "unitPrice": 35,
+          "tax": 9.1,
+          "total": 79.1
+        },
+        {
+          "description": "Coffee Mug",
+          "quantity": 1,
+          "unitPrice": 18,
+          "tax": 2.34,
+          "total": 20.34
+        }
+      ],
+
+      "subtotal": 88,
+      "tax": 11.44,
+      "grandTotal": 99.44,
+      "paymentMethod": "MasterCard"
+    }
+  ]
+}

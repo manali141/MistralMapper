@@ -1,0 +1,4488 @@
+{
+  "QueryResponse": {
+    "Item": [
+      {
+        "Name": "Core Membership Plan",
+        "FullyQualifiedName": "Membership:Core:Plan",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 17.17,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 8.93,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7000",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-02T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-02T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOREPLAN",
+        "Description": "Core Membership Plan for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Core Membership Package",
+        "FullyQualifiedName": "Membership:Core:Package",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 19.34,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 10.06,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7001",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-03T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-03T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOREPACKAGE",
+        "Description": "Core Membership Package for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "902",
+          "name": "Vendor 03"
+        }
+      },
+      {
+        "Name": "Core Membership Program",
+        "FullyQualifiedName": "Membership:Core:Program",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 21.51,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 11.19,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7002",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-04T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-04T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOREPROGRAM",
+        "Description": "Core Membership Program for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 6,
+        "InvStartDate": "2026-01-04",
+        "ReorderPoint": 8
+      },
+      {
+        "Name": "Core Membership Bundle",
+        "FullyQualifiedName": "Membership:Core:Bundle",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 23.68,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 12.31,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7003",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-05T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-05T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOREBUNDLE",
+        "Description": "Core Membership Bundle for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Core Membership Service",
+        "FullyQualifiedName": "Membership:Core:Service",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 25.85,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 13.44,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7004",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-06T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-06T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCORESERVICE",
+        "Description": "Core Membership Service for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "905",
+          "name": "Vendor 06"
+        }
+      },
+      {
+        "Name": "Core Membership Pass",
+        "FullyQualifiedName": "Membership:Core:Pass",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 28.02,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 14.57,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7005",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-07T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-07T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOREPASS",
+        "Description": "Core Membership Pass for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 9,
+        "InvStartDate": "2026-01-07",
+        "ReorderPoint": 11
+      },
+      {
+        "Name": "Core Membership Toolkit",
+        "FullyQualifiedName": "Membership:Core:Toolkit",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 30.19,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 15.7,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7006",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-08T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-08T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCORETOOLKIT",
+        "Description": "Core Membership Toolkit for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Core Membership Subscription",
+        "FullyQualifiedName": "Membership:Core:Subscription",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 32.36,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 16.83,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7007",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-09T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-09T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCORESUBSCRIPTION",
+        "Description": "Core Membership Subscription for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "908",
+          "name": "Vendor 09"
+        }
+      },
+      {
+        "Name": "Core Membership Option",
+        "FullyQualifiedName": "Membership:Core:Option",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 34.53,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 17.96,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7008",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-10T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-10T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOREOPTION",
+        "Description": "Core Membership Option for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 12,
+        "InvStartDate": "2026-01-10",
+        "ReorderPoint": 14
+      },
+      {
+        "Name": "Core Membership Suite",
+        "FullyQualifiedName": "Membership:Core:Suite",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 36.7,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 19.08,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7009",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-11T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-01T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCORESUITE",
+        "Description": "Core Membership Suite for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Core Membership Track",
+        "FullyQualifiedName": "Membership:Core:Track",
+        "Active": false,
+        "Taxable": true,
+        "UnitPrice": 38.87,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 20.21,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7010",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-12T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-02T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCORETRACK",
+        "Description": "Core Membership Track for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "911",
+          "name": "Vendor 12"
+        }
+      },
+      {
+        "Name": "Core Membership Series",
+        "FullyQualifiedName": "Membership:Core:Series",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 41.04,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 21.34,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7011",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-13T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-03T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCORESERIES",
+        "Description": "Core Membership Series for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 15,
+        "InvStartDate": "2026-01-13",
+        "ReorderPoint": 17
+      },
+      {
+        "Name": "Premium Membership Plan",
+        "FullyQualifiedName": "Membership:Premium:Plan",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 43.21,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 22.47,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7012",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-14T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-04T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPREMIUMPLAN",
+        "Description": "Premium Membership Plan for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Premium Membership Package",
+        "FullyQualifiedName": "Membership:Premium:Package",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 45.38,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 23.6,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7013",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-15T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-05T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPREMIUMPACKAGE",
+        "Description": "Premium Membership Package for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "914",
+          "name": "Vendor 15"
+        }
+      },
+      {
+        "Name": "Premium Membership Program",
+        "FullyQualifiedName": "Membership:Premium:Program",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 47.55,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 24.73,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7014",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-16T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-06T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPREMIUMPROGRAM",
+        "Description": "Premium Membership Program for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 18,
+        "InvStartDate": "2026-01-16",
+        "ReorderPoint": 20
+      },
+      {
+        "Name": "Premium Membership Bundle",
+        "FullyQualifiedName": "Membership:Premium:Bundle",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 49.72,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 25.85,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7015",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-17T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-07T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPREMIUMBUNDLE",
+        "Description": "Premium Membership Bundle for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Premium Membership Service",
+        "FullyQualifiedName": "Membership:Premium:Service",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 51.89,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 26.98,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7016",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-18T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-08T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPREMIUMSERVICE",
+        "Description": "Premium Membership Service for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "902",
+          "name": "Vendor 03"
+        }
+      },
+      {
+        "Name": "Premium Membership Pass",
+        "FullyQualifiedName": "Membership:Premium:Pass",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 54.06,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 28.11,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7017",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-19T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-09T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPREMIUMPASS",
+        "Description": "Premium Membership Pass for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 21,
+        "InvStartDate": "2026-01-19",
+        "ReorderPoint": 23
+      },
+      {
+        "Name": "Premium Membership Toolkit",
+        "FullyQualifiedName": "Membership:Premium:Toolkit",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 56.23,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 29.24,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7018",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-20T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-10T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPREMIUMTOOLKIT",
+        "Description": "Premium Membership Toolkit for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Premium Membership Subscription",
+        "FullyQualifiedName": "Membership:Premium:Subscription",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 58.4,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 30.37,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7019",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-21T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-01T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPREMIUMSUBSCRIPTION",
+        "Description": "Premium Membership Subscription for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "905",
+          "name": "Vendor 06"
+        }
+      },
+      {
+        "Name": "Premium Membership Option",
+        "FullyQualifiedName": "Membership:Premium:Option",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 60.57,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 31.5,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7020",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-22T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-02T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPREMIUMOPTION",
+        "Description": "Premium Membership Option for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 24,
+        "InvStartDate": "2026-01-22",
+        "ReorderPoint": 6
+      },
+      {
+        "Name": "Premium Membership Suite",
+        "FullyQualifiedName": "Membership:Premium:Suite",
+        "Active": false,
+        "Taxable": true,
+        "UnitPrice": 62.74,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 32.62,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7021",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-23T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-03T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPREMIUMSUITE",
+        "Description": "Premium Membership Suite for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Premium Membership Track",
+        "FullyQualifiedName": "Membership:Premium:Track",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 64.91,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 33.75,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7022",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-24T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-04T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPREMIUMTRACK",
+        "Description": "Premium Membership Track for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "908",
+          "name": "Vendor 09"
+        }
+      },
+      {
+        "Name": "Premium Membership Series",
+        "FullyQualifiedName": "Membership:Premium:Series",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 67.08,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 34.88,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7023",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-25T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-05T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPREMIUMSERIES",
+        "Description": "Premium Membership Series for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 27,
+        "InvStartDate": "2026-01-25",
+        "ReorderPoint": 9
+      },
+      {
+        "Name": "Essential Membership Plan",
+        "FullyQualifiedName": "Membership:Essential:Plan",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 69.25,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 36.01,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7024",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-26T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-06T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPESSENTIALPLAN",
+        "Description": "Essential Membership Plan for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Essential Membership Package",
+        "FullyQualifiedName": "Membership:Essential:Package",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 71.42,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 37.14,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7025",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-27T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-07T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPESSENTIALPACKAGE",
+        "Description": "Essential Membership Package for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "911",
+          "name": "Vendor 12"
+        }
+      },
+      {
+        "Name": "Essential Membership Program",
+        "FullyQualifiedName": "Membership:Essential:Program",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 73.59,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 38.27,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7026",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-28T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-08T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPESSENTIALPROGRAM",
+        "Description": "Essential Membership Program for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 30,
+        "InvStartDate": "2026-01-28",
+        "ReorderPoint": 12
+      },
+      {
+        "Name": "Essential Membership Bundle",
+        "FullyQualifiedName": "Membership:Essential:Bundle",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 75.76,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 39.4,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7027",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-01T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-09T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPESSENTIALBUNDLE",
+        "Description": "Essential Membership Bundle for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Essential Membership Service",
+        "FullyQualifiedName": "Membership:Essential:Service",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 77.93,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 40.52,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7028",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-02T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-10T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPESSENTIALSERVICE",
+        "Description": "Essential Membership Service for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "914",
+          "name": "Vendor 15"
+        }
+      },
+      {
+        "Name": "Essential Membership Pass",
+        "FullyQualifiedName": "Membership:Essential:Pass",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 80.1,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 41.65,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7029",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-03T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-01T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPESSENTIALPASS",
+        "Description": "Essential Membership Pass for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 33,
+        "InvStartDate": "2026-01-31",
+        "ReorderPoint": 15
+      },
+      {
+        "Name": "Essential Membership Toolkit",
+        "FullyQualifiedName": "Membership:Essential:Toolkit",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 82.27,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 42.78,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7030",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-04T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-02T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPESSENTIALTOOLKIT",
+        "Description": "Essential Membership Toolkit for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Essential Membership Subscription",
+        "FullyQualifiedName": "Membership:Essential:Subscription",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 84.44,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 43.91,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7031",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-05T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-03T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPESSENTIALSUBSCRIPTION",
+        "Description": "Essential Membership Subscription for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "902",
+          "name": "Vendor 03"
+        }
+      },
+      {
+        "Name": "Essential Membership Option",
+        "FullyQualifiedName": "Membership:Essential:Option",
+        "Active": false,
+        "Taxable": true,
+        "UnitPrice": 86.61,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 45.04,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7032",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-06T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-04T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPESSENTIALOPTION",
+        "Description": "Essential Membership Option for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 36,
+        "InvStartDate": "2026-02-03",
+        "ReorderPoint": 18
+      },
+      {
+        "Name": "Essential Membership Suite",
+        "FullyQualifiedName": "Membership:Essential:Suite",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 88.78,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 46.17,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7033",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-07T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-05T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPESSENTIALSUITE",
+        "Description": "Essential Membership Suite for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Essential Membership Track",
+        "FullyQualifiedName": "Membership:Essential:Track",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 90.95,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 47.29,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7034",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-08T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-06T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPESSENTIALTRACK",
+        "Description": "Essential Membership Track for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "905",
+          "name": "Vendor 06"
+        }
+      },
+      {
+        "Name": "Essential Membership Series",
+        "FullyQualifiedName": "Membership:Essential:Series",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 93.12,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 48.42,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7035",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-09T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-07T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPESSENTIALSERIES",
+        "Description": "Essential Membership Series for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 39,
+        "InvStartDate": "2026-02-06",
+        "ReorderPoint": 21
+      },
+      {
+        "Name": "Professional Membership Plan",
+        "FullyQualifiedName": "Membership:Professional:Plan",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 95.29,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 49.55,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7036",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-10T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-08T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPROFESSIONALPLAN",
+        "Description": "Professional Membership Plan for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Professional Membership Package",
+        "FullyQualifiedName": "Membership:Professional:Package",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 97.46,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 50.68,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7037",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-11T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-09T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPROFESSIONALPACKAGE",
+        "Description": "Professional Membership Package for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "908",
+          "name": "Vendor 09"
+        }
+      },
+      {
+        "Name": "Professional Membership Program",
+        "FullyQualifiedName": "Membership:Professional:Program",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 99.63,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 51.81,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7038",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-12T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-10T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPROFESSIONALPROGRAM",
+        "Description": "Professional Membership Program for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 42,
+        "InvStartDate": "2026-02-09",
+        "ReorderPoint": 24
+      },
+      {
+        "Name": "Professional Membership Bundle",
+        "FullyQualifiedName": "Membership:Professional:Bundle",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 101.8,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 52.94,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7039",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-13T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-01T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPROFESSIONALBUNDLE",
+        "Description": "Professional Membership Bundle for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Professional Membership Service",
+        "FullyQualifiedName": "Membership:Professional:Service",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 103.97,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 54.06,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7040",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-14T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-02T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPROFESSIONALSERVICE",
+        "Description": "Professional Membership Service for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "911",
+          "name": "Vendor 12"
+        }
+      },
+      {
+        "Name": "Professional Membership Pass",
+        "FullyQualifiedName": "Membership:Professional:Pass",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 106.14,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 55.19,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7041",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-15T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-03T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPROFESSIONALPASS",
+        "Description": "Professional Membership Pass for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 5,
+        "InvStartDate": "2026-02-12",
+        "ReorderPoint": 7
+      },
+      {
+        "Name": "Professional Membership Toolkit",
+        "FullyQualifiedName": "Membership:Professional:Toolkit",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 108.31,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 56.32,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7042",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-16T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-04T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPROFESSIONALTOOLKIT",
+        "Description": "Professional Membership Toolkit for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Professional Membership Subscription",
+        "FullyQualifiedName": "Membership:Professional:Subscription",
+        "Active": false,
+        "Taxable": false,
+        "UnitPrice": 110.48,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 57.45,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7043",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-17T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-05T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPROFESSIONALSUBSCRIPTION",
+        "Description": "Professional Membership Subscription for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "914",
+          "name": "Vendor 15"
+        }
+      },
+      {
+        "Name": "Professional Membership Option",
+        "FullyQualifiedName": "Membership:Professional:Option",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 112.65,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 58.58,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7044",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-18T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-06T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPROFESSIONALOPTION",
+        "Description": "Professional Membership Option for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 8,
+        "InvStartDate": "2026-02-15",
+        "ReorderPoint": 10
+      },
+      {
+        "Name": "Professional Membership Suite",
+        "FullyQualifiedName": "Membership:Professional:Suite",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 114.82,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 59.71,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7045",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-19T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-07T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPROFESSIONALSUITE",
+        "Description": "Professional Membership Suite for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Professional Membership Track",
+        "FullyQualifiedName": "Membership:Professional:Track",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 116.99,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 60.83,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7046",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-20T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-08T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPROFESSIONALTRACK",
+        "Description": "Professional Membership Track for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "902",
+          "name": "Vendor 03"
+        }
+      },
+      {
+        "Name": "Professional Membership Series",
+        "FullyQualifiedName": "Membership:Professional:Series",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 119.16,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 61.96,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7047",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-21T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-09T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPPROFESSIONALSERIES",
+        "Description": "Professional Membership Series for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 11,
+        "InvStartDate": "2026-02-18",
+        "ReorderPoint": 13
+      },
+      {
+        "Name": "Advanced Membership Plan",
+        "FullyQualifiedName": "Membership:Advanced:Plan",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 121.33,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 63.09,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7048",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-22T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-10T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPADVANCEDPLAN",
+        "Description": "Advanced Membership Plan for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Advanced Membership Package",
+        "FullyQualifiedName": "Membership:Advanced:Package",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 123.5,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 64.22,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7049",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-23T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-01T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPADVANCEDPACKAGE",
+        "Description": "Advanced Membership Package for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "905",
+          "name": "Vendor 06"
+        }
+      },
+      {
+        "Name": "Advanced Membership Program",
+        "FullyQualifiedName": "Membership:Advanced:Program",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 125.67,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 65.35,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7050",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-24T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-02T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPADVANCEDPROGRAM",
+        "Description": "Advanced Membership Program for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 14,
+        "InvStartDate": "2026-02-21",
+        "ReorderPoint": 16
+      },
+      {
+        "Name": "Advanced Membership Bundle",
+        "FullyQualifiedName": "Membership:Advanced:Bundle",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 127.84,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 66.48,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7051",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-25T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-03T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPADVANCEDBUNDLE",
+        "Description": "Advanced Membership Bundle for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Advanced Membership Service",
+        "FullyQualifiedName": "Membership:Advanced:Service",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 130.01,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 67.61,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7052",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-26T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-04T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPADVANCEDSERVICE",
+        "Description": "Advanced Membership Service for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "908",
+          "name": "Vendor 09"
+        }
+      },
+      {
+        "Name": "Advanced Membership Pass",
+        "FullyQualifiedName": "Membership:Advanced:Pass",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 132.18,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 68.73,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7053",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-27T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-05T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPADVANCEDPASS",
+        "Description": "Advanced Membership Pass for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 17,
+        "InvStartDate": "2026-02-24",
+        "ReorderPoint": 19
+      },
+      {
+        "Name": "Advanced Membership Toolkit",
+        "FullyQualifiedName": "Membership:Advanced:Toolkit",
+        "Active": false,
+        "Taxable": true,
+        "UnitPrice": 134.35,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 69.86,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7054",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-28T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-06T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPADVANCEDTOOLKIT",
+        "Description": "Advanced Membership Toolkit for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Advanced Membership Subscription",
+        "FullyQualifiedName": "Membership:Advanced:Subscription",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 136.52,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 70.99,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7055",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-01T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-07T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPADVANCEDSUBSCRIPTION",
+        "Description": "Advanced Membership Subscription for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "911",
+          "name": "Vendor 12"
+        }
+      },
+      {
+        "Name": "Advanced Membership Option",
+        "FullyQualifiedName": "Membership:Advanced:Option",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 138.69,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 72.12,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7056",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-02T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-08T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPADVANCEDOPTION",
+        "Description": "Advanced Membership Option for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 20,
+        "InvStartDate": "2026-02-27",
+        "ReorderPoint": 22
+      },
+      {
+        "Name": "Advanced Membership Suite",
+        "FullyQualifiedName": "Membership:Advanced:Suite",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 140.86,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 73.25,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7057",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-03T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-09T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPADVANCEDSUITE",
+        "Description": "Advanced Membership Suite for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Advanced Membership Track",
+        "FullyQualifiedName": "Membership:Advanced:Track",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 143.03,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 74.38,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7058",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-04T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-10T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPADVANCEDTRACK",
+        "Description": "Advanced Membership Track for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "914",
+          "name": "Vendor 15"
+        }
+      },
+      {
+        "Name": "Advanced Membership Series",
+        "FullyQualifiedName": "Membership:Advanced:Series",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 145.2,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 75.5,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7059",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-05T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-01T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPADVANCEDSERIES",
+        "Description": "Advanced Membership Series for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 23,
+        "InvStartDate": "2026-01-01",
+        "ReorderPoint": 5
+      },
+      {
+        "Name": "Complete Membership Plan",
+        "FullyQualifiedName": "Membership:Complete:Plan",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 147.37,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 76.63,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7060",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-06T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-02T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOMPLETEPLAN",
+        "Description": "Complete Membership Plan for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Complete Membership Package",
+        "FullyQualifiedName": "Membership:Complete:Package",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 149.54,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 77.76,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7061",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-07T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-03T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOMPLETEPACKAGE",
+        "Description": "Complete Membership Package for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "902",
+          "name": "Vendor 03"
+        }
+      },
+      {
+        "Name": "Complete Membership Program",
+        "FullyQualifiedName": "Membership:Complete:Program",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 151.71,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 78.89,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7062",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-08T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-04T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOMPLETEPROGRAM",
+        "Description": "Complete Membership Program for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 26,
+        "InvStartDate": "2026-01-04",
+        "ReorderPoint": 8
+      },
+      {
+        "Name": "Complete Membership Bundle",
+        "FullyQualifiedName": "Membership:Complete:Bundle",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 153.88,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 80.02,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7063",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-09T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-05T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOMPLETEBUNDLE",
+        "Description": "Complete Membership Bundle for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Complete Membership Service",
+        "FullyQualifiedName": "Membership:Complete:Service",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 156.05,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 81.15,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7064",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-10T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-06T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOMPLETESERVICE",
+        "Description": "Complete Membership Service for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "905",
+          "name": "Vendor 06"
+        }
+      },
+      {
+        "Name": "Complete Membership Pass",
+        "FullyQualifiedName": "Membership:Complete:Pass",
+        "Active": false,
+        "Taxable": true,
+        "UnitPrice": 158.22,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 82.27,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7065",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-11T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-07T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOMPLETEPASS",
+        "Description": "Complete Membership Pass for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 29,
+        "InvStartDate": "2026-01-07",
+        "ReorderPoint": 11
+      },
+      {
+        "Name": "Complete Membership Toolkit",
+        "FullyQualifiedName": "Membership:Complete:Toolkit",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 160.39,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 83.4,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7066",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-12T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-08T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOMPLETETOOLKIT",
+        "Description": "Complete Membership Toolkit for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Complete Membership Subscription",
+        "FullyQualifiedName": "Membership:Complete:Subscription",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 162.56,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 84.53,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7067",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-13T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-09T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOMPLETESUBSCRIPTION",
+        "Description": "Complete Membership Subscription for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "908",
+          "name": "Vendor 09"
+        }
+      },
+      {
+        "Name": "Complete Membership Option",
+        "FullyQualifiedName": "Membership:Complete:Option",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 164.73,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 85.66,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7068",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-14T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-10T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOMPLETEOPTION",
+        "Description": "Complete Membership Option for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 32,
+        "InvStartDate": "2026-01-10",
+        "ReorderPoint": 14
+      },
+      {
+        "Name": "Complete Membership Suite",
+        "FullyQualifiedName": "Membership:Complete:Suite",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 166.9,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 86.79,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7069",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-15T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-01T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOMPLETESUITE",
+        "Description": "Complete Membership Suite for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Complete Membership Track",
+        "FullyQualifiedName": "Membership:Complete:Track",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 169.07,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 87.92,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7070",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-16T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-02T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOMPLETETRACK",
+        "Description": "Complete Membership Track for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "911",
+          "name": "Vendor 12"
+        }
+      },
+      {
+        "Name": "Complete Membership Series",
+        "FullyQualifiedName": "Membership:Complete:Series",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 171.24,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 89.04,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7071",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-17T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-03T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPCOMPLETESERIES",
+        "Description": "Complete Membership Series for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 35,
+        "InvStartDate": "2026-01-13",
+        "ReorderPoint": 17
+      },
+      {
+        "Name": "Flexible Membership Plan",
+        "FullyQualifiedName": "Membership:Flexible:Plan",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 173.41,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 90.17,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7072",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-18T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-04T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPFLEXIBLEPLAN",
+        "Description": "Flexible Membership Plan for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Flexible Membership Package",
+        "FullyQualifiedName": "Membership:Flexible:Package",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 175.58,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 91.3,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7073",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-19T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-05T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPFLEXIBLEPACKAGE",
+        "Description": "Flexible Membership Package for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "914",
+          "name": "Vendor 15"
+        }
+      },
+      {
+        "Name": "Flexible Membership Program",
+        "FullyQualifiedName": "Membership:Flexible:Program",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 177.75,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 92.43,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7074",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-20T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-06T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPFLEXIBLEPROGRAM",
+        "Description": "Flexible Membership Program for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 38,
+        "InvStartDate": "2026-01-16",
+        "ReorderPoint": 20
+      },
+      {
+        "Name": "Flexible Membership Bundle",
+        "FullyQualifiedName": "Membership:Flexible:Bundle",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 179.92,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 93.56,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7075",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-21T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-07T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPFLEXIBLEBUNDLE",
+        "Description": "Flexible Membership Bundle for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Flexible Membership Service",
+        "FullyQualifiedName": "Membership:Flexible:Service",
+        "Active": false,
+        "Taxable": true,
+        "UnitPrice": 182.09,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 94.69,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7076",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-22T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-08T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPFLEXIBLESERVICE",
+        "Description": "Flexible Membership Service for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "902",
+          "name": "Vendor 03"
+        }
+      },
+      {
+        "Name": "Flexible Membership Pass",
+        "FullyQualifiedName": "Membership:Flexible:Pass",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 184.26,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 95.82,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7077",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-23T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-09T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPFLEXIBLEPASS",
+        "Description": "Flexible Membership Pass for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 41,
+        "InvStartDate": "2026-01-19",
+        "ReorderPoint": 23
+      },
+      {
+        "Name": "Flexible Membership Toolkit",
+        "FullyQualifiedName": "Membership:Flexible:Toolkit",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 186.43,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 96.94,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7078",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-24T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-10T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPFLEXIBLETOOLKIT",
+        "Description": "Flexible Membership Toolkit for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Flexible Membership Subscription",
+        "FullyQualifiedName": "Membership:Flexible:Subscription",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 188.6,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 98.07,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7079",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-25T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-01T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPFLEXIBLESUBSCRIPTION",
+        "Description": "Flexible Membership Subscription for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "905",
+          "name": "Vendor 06"
+        }
+      },
+      {
+        "Name": "Flexible Membership Option",
+        "FullyQualifiedName": "Membership:Flexible:Option",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 190.77,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 99.2,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7080",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-26T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-02T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPFLEXIBLEOPTION",
+        "Description": "Flexible Membership Option for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 4,
+        "InvStartDate": "2026-01-22",
+        "ReorderPoint": 6
+      },
+      {
+        "Name": "Flexible Membership Suite",
+        "FullyQualifiedName": "Membership:Flexible:Suite",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 192.94,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 100.33,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7081",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-27T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-03T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPFLEXIBLESUITE",
+        "Description": "Flexible Membership Suite for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Flexible Membership Track",
+        "FullyQualifiedName": "Membership:Flexible:Track",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 195.11,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 101.46,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7082",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-28T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-04T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPFLEXIBLETRACK",
+        "Description": "Flexible Membership Track for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "908",
+          "name": "Vendor 09"
+        }
+      },
+      {
+        "Name": "Flexible Membership Series",
+        "FullyQualifiedName": "Membership:Flexible:Series",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 197.28,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 102.59,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7083",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-01T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-05T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPFLEXIBLESERIES",
+        "Description": "Flexible Membership Series for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 7,
+        "InvStartDate": "2026-01-25",
+        "ReorderPoint": 9
+      },
+      {
+        "Name": "Strategic Membership Plan",
+        "FullyQualifiedName": "Membership:Strategic:Plan",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 199.45,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 103.71,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7084",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-02T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-06T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSTRATEGICPLAN",
+        "Description": "Strategic Membership Plan for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Strategic Membership Package",
+        "FullyQualifiedName": "Membership:Strategic:Package",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 201.62,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 104.84,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7085",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-03T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-07T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSTRATEGICPACKAGE",
+        "Description": "Strategic Membership Package for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "911",
+          "name": "Vendor 12"
+        }
+      },
+      {
+        "Name": "Strategic Membership Program",
+        "FullyQualifiedName": "Membership:Strategic:Program",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 203.79,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 105.97,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7086",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-04T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-08T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSTRATEGICPROGRAM",
+        "Description": "Strategic Membership Program for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 10,
+        "InvStartDate": "2026-01-28",
+        "ReorderPoint": 12
+      },
+      {
+        "Name": "Strategic Membership Bundle",
+        "FullyQualifiedName": "Membership:Strategic:Bundle",
+        "Active": false,
+        "Taxable": false,
+        "UnitPrice": 205.96,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 107.1,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7087",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-05T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-09T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSTRATEGICBUNDLE",
+        "Description": "Strategic Membership Bundle for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Strategic Membership Service",
+        "FullyQualifiedName": "Membership:Strategic:Service",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 208.13,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 108.23,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7088",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-06T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-10T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSTRATEGICSERVICE",
+        "Description": "Strategic Membership Service for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "914",
+          "name": "Vendor 15"
+        }
+      },
+      {
+        "Name": "Strategic Membership Pass",
+        "FullyQualifiedName": "Membership:Strategic:Pass",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 15.3,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 7.96,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7089",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-07T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-01T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSTRATEGICPASS",
+        "Description": "Strategic Membership Pass for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 13,
+        "InvStartDate": "2026-01-31",
+        "ReorderPoint": 15
+      },
+      {
+        "Name": "Strategic Membership Toolkit",
+        "FullyQualifiedName": "Membership:Strategic:Toolkit",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 17.47,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 9.08,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7090",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-08T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-02T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSTRATEGICTOOLKIT",
+        "Description": "Strategic Membership Toolkit for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Strategic Membership Subscription",
+        "FullyQualifiedName": "Membership:Strategic:Subscription",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 19.64,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 10.21,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7091",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-09T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-03T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSTRATEGICSUBSCRIPTION",
+        "Description": "Strategic Membership Subscription for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "902",
+          "name": "Vendor 03"
+        }
+      },
+      {
+        "Name": "Strategic Membership Option",
+        "FullyQualifiedName": "Membership:Strategic:Option",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 21.81,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 11.34,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7092",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-10T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-04T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSTRATEGICOPTION",
+        "Description": "Strategic Membership Option for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 16,
+        "InvStartDate": "2026-02-03",
+        "ReorderPoint": 18
+      },
+      {
+        "Name": "Strategic Membership Suite",
+        "FullyQualifiedName": "Membership:Strategic:Suite",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 23.98,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 12.47,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7093",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-11T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-05T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSTRATEGICSUITE",
+        "Description": "Strategic Membership Suite for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "Hourly"
+      },
+      {
+        "Name": "Strategic Membership Track",
+        "FullyQualifiedName": "Membership:Strategic:Track",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 26.15,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 13.6,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7094",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-12T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-06T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSTRATEGICTRACK",
+        "Description": "Strategic Membership Track for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "905",
+          "name": "Vendor 06"
+        }
+      },
+      {
+        "Name": "Strategic Membership Series",
+        "FullyQualifiedName": "Membership:Strategic:Series",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 28.32,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 14.73,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7095",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-13T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-07T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSTRATEGICSERIES",
+        "Description": "Strategic Membership Series for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 19,
+        "InvStartDate": "2026-02-06",
+        "ReorderPoint": 21
+      },
+      {
+        "Name": "Signature Membership Plan",
+        "FullyQualifiedName": "Membership:Signature:Plan",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 30.49,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 15.85,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7096",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-14T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-08T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSIGNATUREPLAN",
+        "Description": "Signature Membership Plan for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "ServiceType": "FixedFee"
+      },
+      {
+        "Name": "Signature Membership Package",
+        "FullyQualifiedName": "Membership:Signature:Package",
+        "Active": true,
+        "Taxable": true,
+        "UnitPrice": 32.66,
+        "Type": "NonInventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership NonInventory procurement item for mapping tests",
+        "PurchaseCost": 16.98,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7097",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-15T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-09T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSIGNATUREPACKAGE",
+        "Description": "Signature Membership Package for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "PreferredVendorRef": {
+          "value": "908",
+          "name": "Vendor 09"
+        }
+      },
+      {
+        "Name": "Signature Membership Program",
+        "FullyQualifiedName": "Membership:Signature:Program",
+        "Active": false,
+        "Taxable": true,
+        "UnitPrice": 34.83,
+        "Type": "Inventory",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Inventory procurement item for mapping tests",
+        "PurchaseCost": 18.11,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7098",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-16T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-10T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSIGNATUREPROGRAM",
+        "Description": "Signature Membership Program for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "CAD",
+          "name": "Canadian Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "TAX",
+          "name": "Taxable"
+        },
+        "AssetAccountRef": {
+          "value": "85",
+          "name": "Inventory Asset"
+        },
+        "QtyOnHand": 22,
+        "InvStartDate": "2026-02-09",
+        "ReorderPoint": 24
+      },
+      {
+        "Name": "Signature Membership Bundle",
+        "FullyQualifiedName": "Membership:Signature:Bundle",
+        "Active": true,
+        "Taxable": false,
+        "UnitPrice": 37,
+        "Type": "Service",
+        "IncomeAccountRef": {
+          "value": "79",
+          "name": "Sales of Product Income"
+        },
+        "PurchaseDesc": "Membership Service procurement item for mapping tests",
+        "PurchaseCost": 19.24,
+        "ExpenseAccountRef": {
+          "value": "82",
+          "name": "Cost of Goods Sold"
+        },
+        "TrackQtyOnHand": false,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "7099",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-02-17T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-01T00:00:00-04:00"
+        },
+        "Sku": "MEMBERSHIPSIGNATUREBUNDLE",
+        "Description": "Signature Membership Bundle for QuickBooks mapping tests",
+        "Classification": "Membership",
+        "CurrencyRef": {
+          "value": "USD",
+          "name": "United States Dollar"
+        },
+        "TaxCodeRef": {
+          "value": "NON",
+          "name": "Non-Taxable"
+        },
+        "ServiceType": "Hourly"
+      }
+    ],
+    "Class": [
+      {
+        "Name": "Membership",
+        "SubClass": false,
+        "FullyQualifiedName": "Membership",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "700",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-01T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-01T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Event",
+        "SubClass": false,
+        "FullyQualifiedName": "Event",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "701",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-02T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-02T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Donation",
+        "SubClass": false,
+        "FullyQualifiedName": "Donation",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "702",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-03T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-03T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Merchandise",
+        "SubClass": false,
+        "FullyQualifiedName": "Merchandise",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "703",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-04T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-04T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Consulting",
+        "SubClass": false,
+        "FullyQualifiedName": "Consulting",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "704",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-05T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-05T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Education",
+        "SubClass": false,
+        "FullyQualifiedName": "Education",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "705",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-06T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-06T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "SaaS",
+        "SubClass": false,
+        "FullyQualifiedName": "SaaS",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "706",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-07T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-07T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Shipping",
+        "SubClass": false,
+        "FullyQualifiedName": "Shipping",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "707",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-08T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-08T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Digital",
+        "SubClass": false,
+        "FullyQualifiedName": "Digital",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "708",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-09T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-09T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "ServicePlan",
+        "SubClass": false,
+        "FullyQualifiedName": "ServicePlan",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "709",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-10T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-10T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Corporate",
+        "SubClass": false,
+        "FullyQualifiedName": "Corporate",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "710",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-11T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-11T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Student",
+        "SubClass": false,
+        "FullyQualifiedName": "Student",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "711",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-12T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-12T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Family",
+        "SubClass": false,
+        "FullyQualifiedName": "Family",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "712",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-13T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-13T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Annual",
+        "SubClass": false,
+        "FullyQualifiedName": "Annual",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "713",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-14T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-14T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Monthly",
+        "SubClass": false,
+        "FullyQualifiedName": "Monthly",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "714",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-15T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-15T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Professional",
+        "SubClass": false,
+        "FullyQualifiedName": "Professional",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "715",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-16T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-16T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Nonprofit",
+        "SubClass": false,
+        "FullyQualifiedName": "Nonprofit",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "716",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-17T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-17T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Retail",
+        "SubClass": false,
+        "FullyQualifiedName": "Retail",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "717",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-18T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-18T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Wholesale",
+        "SubClass": false,
+        "FullyQualifiedName": "Wholesale",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "718",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-19T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-19T00:00:00-04:00"
+        }
+      },
+      {
+        "Name": "Partner",
+        "SubClass": false,
+        "FullyQualifiedName": "Partner",
+        "Active": true,
+        "domain": "QBO",
+        "sparse": false,
+        "Id": "719",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2026-01-20T00:00:00-05:00",
+          "LastUpdatedTime": "2026-06-20T00:00:00-04:00"
+        }
+      }
+    ],
+    "startPosition": 1,
+    "maxResults": 100
+  },
+  "time": "2026-06-12T00:10:29.313-04:00"
+}

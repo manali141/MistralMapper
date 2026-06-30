@@ -1,0 +1,3144 @@
+﻿{
+    "Invoices":  [
+                     {
+                         "Id":  115322010,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115322010",
+                         "DocumentNumber":  "00253",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "orderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "Public test note",
+                         "Value":  5,
+                         "DocumentDate":  "2026-01-01T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2026-01-01T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115320631,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115320631",
+                         "DocumentNumber":  "00252",
+                         "IsPaid":  true,
+                         "PaidAmount":  12.75,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  12.75,
+                         "DocumentDate":  "2025-12-29T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-12-29T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-12-30T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115319252,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115319252",
+                         "DocumentNumber":  "00251",
+                         "IsPaid":  true,
+                         "PaidAmount":  20.5,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  20.5,
+                         "DocumentDate":  "2025-12-26T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-12-26T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-12-27T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "EventRegistration":  {
+                                                   "Id":  66012002,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012002"
+                                               }
+                     },
+                     {
+                         "Id":  115317873,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115317873",
+                         "DocumentNumber":  "00250",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  28.25,
+                         "DocumentDate":  "2025-12-23T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-12-23T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-12-24T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115316494,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115316494",
+                         "DocumentNumber":  "00249",
+                         "IsPaid":  true,
+                         "PaidAmount":  36,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  36,
+                         "DocumentDate":  "2025-12-20T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-12-20T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115315115,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115315115",
+                         "DocumentNumber":  "00248",
+                         "IsPaid":  true,
+                         "PaidAmount":  41.75,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  41.75,
+                         "DocumentDate":  "2025-12-17T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-12-17T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-12-18T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115313736,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115313736",
+                         "DocumentNumber":  "00247",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  49.5,
+                         "DocumentDate":  "2025-12-14T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-12-14T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-12-15T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115312357,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115312357",
+                         "DocumentNumber":  "00246",
+                         "IsPaid":  true,
+                         "PaidAmount":  57.25,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  57.25,
+                         "DocumentDate":  "2025-12-11T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-12-11T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-12-12T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115310978,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115310978",
+                         "DocumentNumber":  "00245",
+                         "IsPaid":  true,
+                         "PaidAmount":  65,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  65,
+                         "DocumentDate":  "2025-12-08T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-12-08T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null,
+                         "EventRegistration":  {
+                                                   "Id":  66012008,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012008"
+                                               }
+                     },
+                     {
+                         "Id":  115309599,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115309599",
+                         "DocumentNumber":  "00244",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  72.75,
+                         "DocumentDate":  "2025-12-05T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-12-05T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-12-06T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115308220,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115308220",
+                         "DocumentNumber":  "00243",
+                         "IsPaid":  true,
+                         "PaidAmount":  78.5,
+                         "ordertype":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  78.5,
+                         "DocumentDate":  "2025-12-02T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-12-02T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-12-03T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115306841,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115306841",
+                         "DocumentNumber":  "00242",
+                         "IsPaid":  true,
+                         "PaidAmount":  86.25,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  86.25,
+                         "DocumentDate":  "2025-11-29T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-11-29T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-11-30T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115305462,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115305462",
+                         "DocumentNumber":  "00241",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  94,
+                         "DocumentDate":  "2025-11-26T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-11-26T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115304083,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115304083",
+                         "DocumentNumber":  "00240",
+                         "IsPaid":  true,
+                         "PaidAmount":  101.75,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  101.75,
+                         "DocumentDate":  "2025-11-23T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-11-23T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-11-24T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115302704,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115302704",
+                         "DocumentNumber":  "00239",
+                         "IsPaid":  true,
+                         "PaidAmount":  109.5,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  109.5,
+                         "DocumentDate":  "2025-11-20T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-11-20T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-11-21T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "EventRegistration":  {
+                                                   "Id":  66012014,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012014"
+                                               }
+                     },
+                     {
+                         "Id":  115301325,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115301325",
+                         "DocumentNumber":  "00238",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "orderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  115.25,
+                         "DocumentDate":  "2025-11-17T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-11-17T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-11-18T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115299946,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115299946",
+                         "DocumentNumber":  "00237",
+                         "IsPaid":  true,
+                         "PaidAmount":  123,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  123,
+                         "DocumentDate":  "2025-11-14T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-11-14T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115298567,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115298567",
+                         "DocumentNumber":  "00236",
+                         "IsPaid":  true,
+                         "PaidAmount":  5.8,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  5.8,
+                         "DocumentDate":  "2025-11-11T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-11-11T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-11-12T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115297188,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115297188",
+                         "DocumentNumber":  "00235",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  13.55,
+                         "DocumentDate":  "2025-11-08T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-11-08T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-11-09T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115295809,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115295809",
+                         "DocumentNumber":  "00234",
+                         "IsPaid":  true,
+                         "PaidAmount":  21.3,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  21.3,
+                         "DocumentDate":  "2025-11-05T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-11-05T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-11-06T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115294430,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115294430",
+                         "DocumentNumber":  "00233",
+                         "IsPaid":  true,
+                         "PaidAmount":  27.05,
+                         "ordertype":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  27.05,
+                         "DocumentDate":  "2025-11-02T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-11-02T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null,
+                         "EventRegistration":  {
+                                                   "Id":  66012020,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012020"
+                                               }
+                     },
+                     {
+                         "Id":  115293051,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115293051",
+                         "DocumentNumber":  "00232",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  34.8,
+                         "DocumentDate":  "2025-10-30T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-10-30T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-10-31T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115291672,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115291672",
+                         "DocumentNumber":  "00231",
+                         "IsPaid":  true,
+                         "PaidAmount":  42.55,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  42.55,
+                         "DocumentDate":  "2025-10-27T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-10-27T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-10-28T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115290293,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115290293",
+                         "DocumentNumber":  "00230",
+                         "IsPaid":  true,
+                         "PaidAmount":  50.3,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  50.3,
+                         "DocumentDate":  "2025-10-24T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-10-24T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-10-25T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115288914,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115288914",
+                         "DocumentNumber":  "00229",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  58.05,
+                         "DocumentDate":  "2025-10-21T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-10-21T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115287535,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115287535",
+                         "DocumentNumber":  "00228",
+                         "IsPaid":  true,
+                         "PaidAmount":  63.8,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  63.8,
+                         "DocumentDate":  "2025-10-18T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-10-18T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-10-19T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115286156,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115286156",
+                         "DocumentNumber":  "00227",
+                         "IsPaid":  true,
+                         "PaidAmount":  71.55,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  71.55,
+                         "DocumentDate":  "2025-10-15T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-10-15T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-10-16T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "EventRegistration":  {
+                                                   "Id":  66012026,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012026"
+                                               }
+                     },
+                     {
+                         "Id":  115284777,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115284777",
+                         "DocumentNumber":  "00226",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  79.3,
+                         "DocumentDate":  "2025-10-12T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-10-12T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-10-13T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115283398,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115283398",
+                         "DocumentNumber":  "00225",
+                         "IsPaid":  true,
+                         "PaidAmount":  87.05,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  87.05,
+                         "DocumentDate":  "2025-10-09T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-10-09T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115282019,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115282019",
+                         "DocumentNumber":  "00224",
+                         "IsPaid":  true,
+                         "PaidAmount":  94.8,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  94.8,
+                         "DocumentDate":  "2025-10-06T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-10-06T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-10-07T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115280640,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115280640",
+                         "DocumentNumber":  "00223",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "orderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  100.55,
+                         "DocumentDate":  "2025-10-03T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-10-03T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-10-04T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115279261,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115279261",
+                         "DocumentNumber":  "00222",
+                         "IsPaid":  true,
+                         "PaidAmount":  108.3,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  108.3,
+                         "DocumentDate":  "2025-09-30T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-09-30T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-10-01T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115277882,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115277882",
+                         "DocumentNumber":  "00221",
+                         "IsPaid":  true,
+                         "PaidAmount":  116.05,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  116.05,
+                         "DocumentDate":  "2025-09-27T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-09-27T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null,
+                         "EventRegistration":  {
+                                                   "Id":  66012032,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012032"
+                                               }
+                     },
+                     {
+                         "Id":  115276503,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115276503",
+                         "DocumentNumber":  "00220",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  123.8,
+                         "DocumentDate":  "2025-09-24T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-09-24T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-09-25T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115275124,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115275124",
+                         "DocumentNumber":  "00219",
+                         "IsPaid":  true,
+                         "PaidAmount":  6.6,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  6.6,
+                         "DocumentDate":  "2025-09-21T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-09-21T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-09-22T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115273745,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115273745",
+                         "DocumentNumber":  "00218",
+                         "IsPaid":  true,
+                         "PaidAmount":  12.35,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  12.35,
+                         "DocumentDate":  "2025-09-18T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-09-18T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-09-19T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115272366,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115272366",
+                         "DocumentNumber":  "00217",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  20.1,
+                         "DocumentDate":  "2025-09-15T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-09-15T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115270987,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115270987",
+                         "DocumentNumber":  "00216",
+                         "IsPaid":  true,
+                         "PaidAmount":  27.85,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  27.85,
+                         "DocumentDate":  "2025-09-12T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-09-12T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-09-13T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115269608,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115269608",
+                         "DocumentNumber":  "00215",
+                         "IsPaid":  true,
+                         "PaidAmount":  35.6,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  35.6,
+                         "DocumentDate":  "2025-09-09T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-09-09T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-09-10T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "EventRegistration":  {
+                                                   "Id":  66012038,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012038"
+                                               }
+                     },
+                     {
+                         "Id":  115268229,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115268229",
+                         "DocumentNumber":  "00214",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  43.35,
+                         "DocumentDate":  "2025-09-06T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-09-06T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-09-07T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115266850,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115266850",
+                         "DocumentNumber":  "00213",
+                         "IsPaid":  true,
+                         "PaidAmount":  49.1,
+                         "ordertype":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  49.1,
+                         "DocumentDate":  "2025-09-03T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-09-03T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115265471,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115265471",
+                         "DocumentNumber":  "00212",
+                         "IsPaid":  true,
+                         "PaidAmount":  56.85,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  56.85,
+                         "DocumentDate":  "2025-08-31T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-08-31T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-09-01T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115264092,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115264092",
+                         "DocumentNumber":  "00211",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "Public test note",
+                         "Value":  64.6,
+                         "DocumentDate":  "2025-08-28T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-08-28T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-08-29T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115262713,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115262713",
+                         "DocumentNumber":  "00210",
+                         "IsPaid":  true,
+                         "PaidAmount":  72.35,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  72.35,
+                         "DocumentDate":  "2025-08-25T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-08-25T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-08-26T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115261334,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115261334",
+                         "DocumentNumber":  "00209",
+                         "IsPaid":  true,
+                         "PaidAmount":  80.1,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  80.1,
+                         "DocumentDate":  "2025-08-22T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-08-22T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null,
+                         "EventRegistration":  {
+                                                   "Id":  66012044,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012044"
+                                               }
+                     },
+                     {
+                         "Id":  115259955,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115259955",
+                         "DocumentNumber":  "00208",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "orderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  85.85,
+                         "DocumentDate":  "2025-08-19T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-08-19T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-08-20T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115258576,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115258576",
+                         "DocumentNumber":  "00207",
+                         "IsPaid":  true,
+                         "PaidAmount":  93.6,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  93.6,
+                         "DocumentDate":  "2025-08-16T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-08-16T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-08-17T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115257197,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115257197",
+                         "DocumentNumber":  "00206",
+                         "IsPaid":  true,
+                         "PaidAmount":  101.35,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  101.35,
+                         "DocumentDate":  "2025-08-13T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-08-13T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-08-14T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115255818,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115255818",
+                         "DocumentNumber":  "00205",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  109.1,
+                         "DocumentDate":  "2025-08-10T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-08-10T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115254439,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115254439",
+                         "DocumentNumber":  "00204",
+                         "IsPaid":  true,
+                         "PaidAmount":  116.85,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  116.85,
+                         "DocumentDate":  "2025-08-07T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-08-07T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-08-08T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115253060,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115253060",
+                         "DocumentNumber":  "00203",
+                         "IsPaid":  true,
+                         "PaidAmount":  122.6,
+                         "ordertype":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  122.6,
+                         "DocumentDate":  "2025-08-04T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-08-04T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-08-05T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "EventRegistration":  {
+                                                   "Id":  66012050,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012050"
+                                               }
+                     },
+                     {
+                         "Id":  115251681,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115251681",
+                         "DocumentNumber":  "00202",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  5.4,
+                         "DocumentDate":  "2025-08-01T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-08-01T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-08-02T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115250302,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115250302",
+                         "DocumentNumber":  "00201",
+                         "IsPaid":  true,
+                         "PaidAmount":  13.15,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  13.15,
+                         "DocumentDate":  "2025-07-29T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-07-29T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115248923,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115248923",
+                         "DocumentNumber":  "00200",
+                         "IsPaid":  true,
+                         "PaidAmount":  20.9,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  20.9,
+                         "DocumentDate":  "2025-07-26T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-07-26T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-07-27T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115247544,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115247544",
+                         "DocumentNumber":  "00199",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  28.65,
+                         "DocumentDate":  "2025-07-23T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-07-23T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-07-24T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115246165,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115246165",
+                         "DocumentNumber":  "00198",
+                         "IsPaid":  true,
+                         "PaidAmount":  34.4,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  34.4,
+                         "DocumentDate":  "2025-07-20T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-07-20T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-07-21T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115244786,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115244786",
+                         "DocumentNumber":  "00197",
+                         "IsPaid":  true,
+                         "PaidAmount":  42.15,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  42.15,
+                         "DocumentDate":  "2025-07-17T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-07-17T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null,
+                         "EventRegistration":  {
+                                                   "Id":  66012056,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012056"
+                                               }
+                     },
+                     {
+                         "Id":  115243407,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115243407",
+                         "DocumentNumber":  "00196",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  49.9,
+                         "DocumentDate":  "2025-07-14T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-07-14T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-07-15T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115242028,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115242028",
+                         "DocumentNumber":  "00195",
+                         "IsPaid":  true,
+                         "PaidAmount":  57.65,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  57.65,
+                         "DocumentDate":  "2025-07-11T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-07-11T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-07-12T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115240649,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115240649",
+                         "DocumentNumber":  "00194",
+                         "IsPaid":  true,
+                         "PaidAmount":  65.4,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  65.4,
+                         "DocumentDate":  "2025-07-08T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-07-08T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-07-09T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115239270,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115239270",
+                         "DocumentNumber":  "00193",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "orderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  71.15,
+                         "DocumentDate":  "2025-07-05T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-07-05T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115237891,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115237891",
+                         "DocumentNumber":  "00192",
+                         "IsPaid":  true,
+                         "PaidAmount":  78.9,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  78.9,
+                         "DocumentDate":  "2025-07-02T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-07-02T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-07-03T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115236512,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115236512",
+                         "DocumentNumber":  "00191",
+                         "IsPaid":  true,
+                         "PaidAmount":  86.65,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  86.65,
+                         "DocumentDate":  "2025-06-29T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-06-29T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-06-30T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "EventRegistration":  {
+                                                   "Id":  66012062,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012062"
+                                               }
+                     },
+                     {
+                         "Id":  115235133,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115235133",
+                         "DocumentNumber":  "00190",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  94.4,
+                         "DocumentDate":  "2025-06-26T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-06-26T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-06-27T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115233754,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115233754",
+                         "DocumentNumber":  "00189",
+                         "IsPaid":  true,
+                         "PaidAmount":  102.15,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  102.15,
+                         "DocumentDate":  "2025-06-23T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-06-23T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115232375,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115232375",
+                         "DocumentNumber":  "00188",
+                         "IsPaid":  true,
+                         "PaidAmount":  107.9,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  107.9,
+                         "DocumentDate":  "2025-06-20T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-06-20T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-06-21T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115230996,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115230996",
+                         "DocumentNumber":  "00187",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  115.65,
+                         "DocumentDate":  "2025-06-17T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-06-17T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-06-18T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115229617,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115229617",
+                         "DocumentNumber":  "00186",
+                         "IsPaid":  true,
+                         "PaidAmount":  123.4,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  123.4,
+                         "DocumentDate":  "2025-06-14T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-06-14T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-06-15T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115228238,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115228238",
+                         "DocumentNumber":  "00185",
+                         "IsPaid":  true,
+                         "PaidAmount":  6.2,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  6.2,
+                         "DocumentDate":  "2025-06-11T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-06-11T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null,
+                         "EventRegistration":  {
+                                                   "Id":  66012068,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012068"
+                                               }
+                     },
+                     {
+                         "Id":  115226859,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115226859",
+                         "DocumentNumber":  "00184",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  13.95,
+                         "DocumentDate":  "2025-06-08T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-06-08T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-06-09T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115225480,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115225480",
+                         "DocumentNumber":  "00183",
+                         "IsPaid":  true,
+                         "PaidAmount":  19.7,
+                         "ordertype":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  19.7,
+                         "DocumentDate":  "2025-06-05T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-06-05T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-06-06T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115224101,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115224101",
+                         "DocumentNumber":  "00182",
+                         "IsPaid":  true,
+                         "PaidAmount":  27.45,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  27.45,
+                         "DocumentDate":  "2025-06-02T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-06-02T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-06-03T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115222722,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115222722",
+                         "DocumentNumber":  "00181",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  35.2,
+                         "DocumentDate":  "2025-05-30T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-05-30T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115221343,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115221343",
+                         "DocumentNumber":  "00180",
+                         "IsPaid":  true,
+                         "PaidAmount":  42.95,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  42.95,
+                         "DocumentDate":  "2025-05-27T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-05-27T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-05-28T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115219964,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115219964",
+                         "DocumentNumber":  "00179",
+                         "IsPaid":  true,
+                         "PaidAmount":  50.7,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  50.7,
+                         "DocumentDate":  "2025-05-24T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-05-24T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-05-25T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "EventRegistration":  {
+                                                   "Id":  66012074,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012074"
+                                               }
+                     },
+                     {
+                         "Id":  115218585,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115218585",
+                         "DocumentNumber":  "00178",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "orderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  56.45,
+                         "DocumentDate":  "2025-05-21T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-05-21T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-05-22T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115217206,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115217206",
+                         "DocumentNumber":  "00177",
+                         "IsPaid":  true,
+                         "PaidAmount":  64.2,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  64.2,
+                         "DocumentDate":  "2025-05-18T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-05-18T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115215827,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115215827",
+                         "DocumentNumber":  "00176",
+                         "IsPaid":  true,
+                         "PaidAmount":  71.95,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  71.95,
+                         "DocumentDate":  "2025-05-15T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-05-15T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-05-16T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115214448,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115214448",
+                         "DocumentNumber":  "00175",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  79.7,
+                         "DocumentDate":  "2025-05-12T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-05-12T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-05-13T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115213069,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115213069",
+                         "DocumentNumber":  "00174",
+                         "IsPaid":  true,
+                         "PaidAmount":  87.45,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  87.45,
+                         "DocumentDate":  "2025-05-09T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-05-09T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-05-10T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115211690,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115211690",
+                         "DocumentNumber":  "00173",
+                         "IsPaid":  true,
+                         "PaidAmount":  93.2,
+                         "ordertype":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  93.2,
+                         "DocumentDate":  "2025-05-06T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-05-06T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null,
+                         "EventRegistration":  {
+                                                   "Id":  66012080,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012080"
+                                               }
+                     },
+                     {
+                         "Id":  115210311,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115210311",
+                         "DocumentNumber":  "00172",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  100.95,
+                         "DocumentDate":  "2025-05-03T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-05-03T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-05-04T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115208932,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115208932",
+                         "DocumentNumber":  "00171",
+                         "IsPaid":  true,
+                         "PaidAmount":  108.7,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  108.7,
+                         "DocumentDate":  "2025-04-30T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-04-30T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-05-01T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115207553,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115207553",
+                         "DocumentNumber":  "00170",
+                         "IsPaid":  true,
+                         "PaidAmount":  116.45,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  116.45,
+                         "DocumentDate":  "2025-04-27T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-04-27T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-04-28T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115206174,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115206174",
+                         "DocumentNumber":  "00169",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "Public test note",
+                         "Value":  124.2,
+                         "DocumentDate":  "2025-04-24T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-04-24T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115204795,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115204795",
+                         "DocumentNumber":  "00168",
+                         "IsPaid":  true,
+                         "PaidAmount":  5,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  5,
+                         "DocumentDate":  "2025-04-21T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-04-21T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-04-22T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115203416,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115203416",
+                         "DocumentNumber":  "00167",
+                         "IsPaid":  true,
+                         "PaidAmount":  12.75,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  12.75,
+                         "DocumentDate":  "2025-04-18T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-04-18T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-04-19T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "EventRegistration":  {
+                                                   "Id":  66012086,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012086"
+                                               }
+                     },
+                     {
+                         "Id":  115202037,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115202037",
+                         "DocumentNumber":  "00166",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  20.5,
+                         "DocumentDate":  "2025-04-15T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-04-15T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-04-16T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115200658,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115200658",
+                         "DocumentNumber":  "00165",
+                         "IsPaid":  true,
+                         "PaidAmount":  28.25,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  28.25,
+                         "DocumentDate":  "2025-04-12T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-04-12T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115199279,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115199279",
+                         "DocumentNumber":  "00164",
+                         "IsPaid":  true,
+                         "PaidAmount":  36,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  36,
+                         "DocumentDate":  "2025-04-09T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-04-09T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-04-10T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115197900,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115197900",
+                         "DocumentNumber":  "00163",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "orderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  41.75,
+                         "DocumentDate":  "2025-04-06T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-04-06T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-04-07T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115196521,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115196521",
+                         "DocumentNumber":  "00162",
+                         "IsPaid":  true,
+                         "PaidAmount":  49.5,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  49.5,
+                         "DocumentDate":  "2025-04-03T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-04-03T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-04-04T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115195142,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115195142",
+                         "DocumentNumber":  "00161",
+                         "IsPaid":  true,
+                         "PaidAmount":  57.25,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  57.25,
+                         "DocumentDate":  "2025-03-31T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-03-31T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null,
+                         "EventRegistration":  {
+                                                   "Id":  66012092,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012092"
+                                               }
+                     },
+                     {
+                         "Id":  115193763,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115193763",
+                         "DocumentNumber":  "00160",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  65,
+                         "DocumentDate":  "2025-03-28T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-03-28T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-03-29T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115192384,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115192384",
+                         "DocumentNumber":  "00159",
+                         "IsPaid":  true,
+                         "PaidAmount":  72.75,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  72.75,
+                         "DocumentDate":  "2025-03-25T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-03-25T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-03-26T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115191005,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115191005",
+                         "DocumentNumber":  "00158",
+                         "IsPaid":  true,
+                         "PaidAmount":  78.5,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  78.5,
+                         "DocumentDate":  "2025-03-22T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-03-22T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-03-23T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115189626,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115189626",
+                         "DocumentNumber":  "00157",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  86.25,
+                         "DocumentDate":  "2025-03-19T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-03-19T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115188247,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115188247",
+                         "DocumentNumber":  "00156",
+                         "IsPaid":  true,
+                         "PaidAmount":  94,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  94,
+                         "DocumentDate":  "2025-03-16T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-03-16T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-03-17T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115186868,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115186868",
+                         "DocumentNumber":  "00155",
+                         "IsPaid":  true,
+                         "PaidAmount":  101.75,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  101.75,
+                         "DocumentDate":  "2025-03-13T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-03-13T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-03-14T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "EventRegistration":  {
+                                                   "Id":  66012098,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012098"
+                                               }
+                     },
+                     {
+                         "Id":  115185489,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115185489",
+                         "DocumentNumber":  "00154",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  109.5,
+                         "DocumentDate":  "2025-03-10T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-03-10T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-03-11T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115184110,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115184110",
+                         "DocumentNumber":  "00153",
+                         "IsPaid":  true,
+                         "PaidAmount":  115.25,
+                         "ordertype":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  115.25,
+                         "DocumentDate":  "2025-03-07T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-03-07T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115182731,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115182731",
+                         "DocumentNumber":  "00152",
+                         "IsPaid":  true,
+                         "PaidAmount":  123,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  123,
+                         "DocumentDate":  "2025-03-04T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-03-04T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-03-05T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115181352,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115181352",
+                         "DocumentNumber":  "00151",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  5.8,
+                         "DocumentDate":  "2025-03-01T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-03-01T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-03-02T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115179973,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115179973",
+                         "DocumentNumber":  "00150",
+                         "IsPaid":  true,
+                         "PaidAmount":  13.55,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  13.55,
+                         "DocumentDate":  "2025-02-26T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-02-26T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-02-27T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115178594,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115178594",
+                         "DocumentNumber":  "00149",
+                         "IsPaid":  true,
+                         "PaidAmount":  21.3,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  21.3,
+                         "DocumentDate":  "2025-02-23T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-02-23T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null,
+                         "EventRegistration":  {
+                                                   "Id":  66012104,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012104"
+                                               }
+                     },
+                     {
+                         "Id":  115177215,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115177215",
+                         "DocumentNumber":  "00148",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "orderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  27.05,
+                         "DocumentDate":  "2025-02-20T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-02-20T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-02-21T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115175836,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115175836",
+                         "DocumentNumber":  "00147",
+                         "IsPaid":  true,
+                         "PaidAmount":  34.8,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  34.8,
+                         "DocumentDate":  "2025-02-17T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-02-17T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-02-18T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115174457,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115174457",
+                         "DocumentNumber":  "00146",
+                         "IsPaid":  true,
+                         "PaidAmount":  42.55,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  42.55,
+                         "DocumentDate":  "2025-02-14T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-02-14T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-02-15T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115173078,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115173078",
+                         "DocumentNumber":  "00145",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  50.3,
+                         "DocumentDate":  "2025-02-11T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-02-11T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115171699,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115171699",
+                         "DocumentNumber":  "00144",
+                         "IsPaid":  true,
+                         "PaidAmount":  58.05,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  58.05,
+                         "DocumentDate":  "2025-02-08T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-02-08T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-02-09T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115170320,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115170320",
+                         "DocumentNumber":  "00143",
+                         "IsPaid":  true,
+                         "PaidAmount":  63.8,
+                         "ordertype":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  63.8,
+                         "DocumentDate":  "2025-02-05T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-02-05T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-02-06T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "EventRegistration":  {
+                                                   "Id":  66012110,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012110"
+                                               }
+                     },
+                     {
+                         "Id":  115168941,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115168941",
+                         "DocumentNumber":  "00142",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  71.55,
+                         "DocumentDate":  "2025-02-02T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-02-02T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-02-03T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115167562,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115167562",
+                         "DocumentNumber":  "00141",
+                         "IsPaid":  true,
+                         "PaidAmount":  79.3,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  79.3,
+                         "DocumentDate":  "2025-01-30T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-01-30T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null
+                     },
+                     {
+                         "Id":  115166183,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115166183",
+                         "DocumentNumber":  "00140",
+                         "IsPaid":  true,
+                         "PaidAmount":  87.05,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  87.05,
+                         "DocumentDate":  "2025-01-27T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-01-27T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-01-28T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115164804,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115164804",
+                         "DocumentNumber":  "00139",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "Undefined",
+                         "Memo":  "Test memo for ordertype coverage",
+                         "PublicMemo":  "",
+                         "Value":  94.8,
+                         "DocumentDate":  "2025-01-24T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-01-24T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-01-25T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115163425,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115163425",
+                         "DocumentNumber":  "00138",
+                         "IsPaid":  true,
+                         "PaidAmount":  100.55,
+                         "OrderType":  "MembershipRenewal",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  100.55,
+                         "DocumentDate":  "2025-01-21T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  49286448,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448",
+                                         "Name":  "Binder, Carol"
+                                     },
+                         "CreatedDate":  "2025-01-21T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-01-22T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115162046,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115162046",
+                         "DocumentNumber":  "00137",
+                         "IsPaid":  true,
+                         "PaidAmount":  108.3,
+                         "OrderType":  "EventRegistration",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  108.3,
+                         "DocumentDate":  "2025-01-18T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  77579941,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/77579941",
+                                         "Name":  "Avraham, Jonathan"
+                                     },
+                         "CreatedDate":  "2025-01-18T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       },
+                         "UpdatedDate":  null,
+                         "UpdatedBy":  null,
+                         "EventRegistration":  {
+                                                   "Id":  66012116,
+                                                   "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/EventRegistrations/66012116"
+                                               }
+                     },
+                     {
+                         "Id":  115160667,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115160667",
+                         "DocumentNumber":  "00136",
+                         "IsPaid":  false,
+                         "PaidAmount":  0,
+                         "OrderType":  "MembershipApplication",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  116.05,
+                         "DocumentDate":  "2025-01-15T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  37415038,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038",
+                                         "Name":  "Sirota, Alex"
+                                     },
+                         "CreatedDate":  "2025-01-15T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  37415038,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/37415038"
+                                       },
+                         "UpdatedDate":  "2025-01-16T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115159288,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115159288",
+                         "DocumentNumber":  "00135",
+                         "IsPaid":  true,
+                         "PaidAmount":  123.8,
+                         "OrderType":  "MembershipLevelChange",
+                         "Memo":  "",
+                         "PublicMemo":  "",
+                         "Value":  123.8,
+                         "DocumentDate":  "2025-01-12T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  54068714,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/54068714",
+                                         "Name":  "02, Testing1"
+                                     },
+                         "CreatedDate":  "2025-01-12T09:00:00",
+                         "CreatedBy":  {
+                                           "Id":  94497926,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/94497926"
+                                       },
+                         "UpdatedDate":  "2025-01-13T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     },
+                     {
+                         "Id":  115157909,
+                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Invoices/115157909",
+                         "DocumentNumber":  "00134",
+                         "IsPaid":  true,
+                         "PaidAmount":  6.6,
+                         "OrderType":  "OnlineStore",
+                         "Memo":  "",
+                         "PublicMemo":  "Public test note",
+                         "Value":  6.6,
+                         "DocumentDate":  "2025-01-09T07:00:00+00:00",
+                         "Contact":  {
+                                         "Id":  60085794,
+                                         "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/60085794",
+                                         "Name":  "Brotherton, Nat"
+                                     },
+                         "CreatedDate":  "2025-01-09T09:00:00",
+                         "CreatedBy":  null,
+                         "UpdatedDate":  "2025-01-10T09:00:00",
+                         "UpdatedBy":  {
+                                           "Id":  49286448,
+                                           "Url":  "https://api.wildapricot.org/v2.3/accounts/221748/Contacts/49286448"
+                                       }
+                     }
+                 ]
+}
