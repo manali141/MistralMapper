@@ -5,7 +5,8 @@ function normalizePlainObject(row) {
     Object.entries(row).map(([key, value]) => [String(key).trim(), value]),
   )
 }
-
+console.log("DB:", process.env.DATABASE_URL);
+console.log("JWT:", process.env.JWT_SECRET);
 function parseCsvLine(line) {
   const values = []
   let current = ''
